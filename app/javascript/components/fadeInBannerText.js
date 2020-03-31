@@ -1,7 +1,7 @@
 import { animations } from "animations.js"
 
 const header = document.querySelector('.banner-text');
-// const infoLink = document.querySelector('.more-info');
+const cardsHeader = document.querySelector('.cards-header');
 
 const fadeInUp = {
   easing: "ease",
@@ -29,7 +29,7 @@ const timing = {
 
 const fadeInBannerText = () => {
   header.animate(fadeInUp, timing);
-  // infoLink.animate(fadeInUp, timing);
+  cardsHeader.animate(fadeInUp, timing);
 };
 
 export { fadeInBannerText };
