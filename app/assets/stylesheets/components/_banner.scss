@@ -1,0 +1,31 @@
+.banner{
+  height: 70vh;
+  background-image: linear-gradient(46deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), asset_url(banner-placeholder);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-text{
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+  opacity: 0;
+  margin-top: 100px;
+  h1{
+    font-size: 60px;
+  }
+  p{
+    font-size: 25px;
+  }
+}
+
+.fade{
+  opacity: 1!important;
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(252,252,252,0), rgba(252,252,252,1));
+}
