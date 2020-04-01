@@ -1,0 +1,31 @@
+.profile-card{
+ height: 500px;
+ border-radius: 8px;
+ box-shadow: 0 0 20px 5px rgba(0,0,0,0.2);
+ display: flex;
+}
+
+.carousel-inner{
+  width: 100% !important;
+  max-height: 500px !important;
+  border-radius: 8px 0 0 8px;
+  margin: 0!important;
+}
+.carousel-item .active {
+  height: 500px;
+  max-width: 300px;
+  margin: 0!important;
+}
+.carousel-item {
+  height: 500px;
+  max-width: 300px;
+  margin: 0!important;
+}
+.carousel-item-left{
+  max-width: 300px!important;
+  margin: 0!important;
+}
+.carousel-item-next{
+  max-width: 300px!important;
+  margin: 0!important;
+}
