@@ -12,14 +12,12 @@
 }
 
 .cards{
-  margin: 100px 0 40px 0;
-  align-items: center;
-  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 40px;
 }
 
 .step-card{
-  width: 300px;
-  height: 575px;
+  height: 520px;
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.2);
   padding: 20px;
   border-radius: 8px;
@@ -34,7 +32,7 @@
   }
   &:hover{
     box-shadow: 0 0 20px 10px rgba(58,175,185,0.3);
-    height: 580px;
+    height: 525px;
   }
 }
 
@@ -58,7 +56,17 @@
   padding-bottom: 0;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 1400px) {
+  .step-card{
+    height: 600px;
+    &:hover{
+      height: 605px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
   .cards-header{
     h1{
       font-size: 40px;
@@ -68,6 +76,10 @@
     }
   }
   .step-card{
-    margin: 0;
+    margin-top: 40px;
+    height: 520px;
+    &:hover{
+      height: 525px;
+    }
   }
 }
