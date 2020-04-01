@@ -44,4 +44,11 @@
   }
 }
 
-
+@media (max-width: 600px) {
+  .footer{
+    p{
+      font-size: 17px;
+      margin: 0;
+    }
+  }
+}

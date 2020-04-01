@@ -13,6 +13,8 @@
 
 .cards{
   margin: 100px 0 40px 0;
+  align-items: center;
+  flex-direction: column;
 }
 
 .step-card{
@@ -22,7 +24,6 @@
   padding: 20px;
   border-radius: 8px;
   transition: 0.2s;
-  margin: 0 20px!important;
   .container{
     display: flex;
     flex-direction: column;
@@ -43,7 +44,6 @@
   border-radius: 50%;
   border: 3px solid $card-blue;
   color: $card-blue;
-  margin: 0 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,5 +66,8 @@
     i{
       font-size: 40px;
     }
+  }
+  .step-card{
+    margin: 0;
   }
 }
