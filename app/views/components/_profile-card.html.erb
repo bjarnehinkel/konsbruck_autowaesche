@@ -1,25 +1,39 @@
 <div class="profile-card">
-  <div id="carouselProfile" class="carousel slide carousel-fade" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="<%= asset_url(fahrrad) %>" class="d-block w-100" alt="...">
+  <div class="row w-100 h-100 m-0">
+    <div class="col-6 p-0">
+      <div id="carouselProfile" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="<%= asset_url('fahrrad') %>" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="<%= asset_url('fenster') %>" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="<%= asset_url('einkaufen') %>" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="<%= asset_url('besen') %>" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="<%= asset_url('auto') %>" class="d-block w-100" style="object-position: right;" alt="...">
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="<%= asset_url(fenster) %>" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="<%= asset_url(einkaufen) %>" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="<%= asset_url(besen) %>" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="<%= asset_url(auto) %>" class="d-block w-100" alt="...">
+    <div class="col-6 description-charles">
+      <h1>Wer bin ich?</h1>
+      <ul>
+        <li>17 Jahre alt</li>
+        <li>Schüler and der Bavarian International School (11. Klasse)</li>
+        <li>Wohne in Bogenhausen</li>
+      </ul>
+      <p>Ich würde gerne mit meiner durch die jetzige Situation entstandene Zeit den Leuten helfen, die von dieser Krise deutlich mehr betroffen sind als ich - und zwar dort, wo jeder anpacken kann; im Haushalt!</p>
     </div>
   </div>
-  <ul>
-    <li>Hello</li>
-    <li>Bla</li>
-    <li>blu</li>
-  </ul>
 </div>
+
+
+
+
+
