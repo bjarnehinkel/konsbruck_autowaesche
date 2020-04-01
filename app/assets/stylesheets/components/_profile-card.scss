@@ -1,13 +1,13 @@
 .profile-card{
  height: 500px;
- border-radius: 8px;
+ border-radius: 8px 8px 0 0;
  box-shadow: 0 0 20px 5px rgba(0,0,0,0.2);
  margin-top: 100px;
 }
 
 .carousel-inner{
   height: 500px!important;
-  border-radius: 8px 0 0 8px;
+  border-radius: 8px 0 0 0;
 }
 
 .carousel-item > img{
@@ -37,4 +37,25 @@
 
 .img-right{
   object-position: right;
+}
+
+.virus-security{
+  background-color: #F8CFCF;
+  border: 1px solid #F7C0C0;
+  color: #8c1013;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 8px 8px;
+  i{
+    flex-grow: 1;
+    font-size: 50px;
+  }
+  p{
+    font-size: 16px;
+    margin: 0;
+  }
+  .security-text{
+    width: 90%;
+  }
 }
