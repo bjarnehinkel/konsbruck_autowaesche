@@ -1,13 +1,20 @@
 <div class="footer">
   <div class="row align-items-center">
-    <p>Kontaktier mich auch gern auf Insta...</p>
+    <p>Kontaktieren sie mich auch gerne direkt...</p>
+  </div>
+  <div class="row">
     <%= link_to 'https://www.instagram.com/charles.kon/', target:'_blank' do %>
       <div class="icon-container footer-icon-container">
         <i class="fab fa-instagram"></i>
       </div>
     <% end %>
+    <%= link_to 'mailto:konsbruckcharles@gmail.com', target:'_blank' do %>
+      <div class="icon-container footer-icon-container">
+        <i class="far fa-envelope"></i>
+      </div>
+    <% end %>
   </div>
-  <div class="row mt-3 signature align-items-center">
+  <div class="row signature align-items-center mb-2">
     <p>Made by Bjarne Hinkel</p>
     <i class="far fa-copyright"></i>
     <p>twentytwenty</p>
