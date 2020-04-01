@@ -14,9 +14,12 @@
       </div>
     <% end %>
   </div>
-  <div class="row signature align-items-center mb-2">
-    <p>Made by Bjarne Hinkel</p>
-    <i class="far fa-copyright"></i>
-    <p>twentytwenty</p>
-  </div>
+  <%= link_to 'http://www.bjarnehinkel.com', target:'_blank' do %>
+    <div class="row signature align-items-center mb-2">
+      <p>Made by </p>
+      <p class="plug">Bjarne Hinkel</p>
+      <i class="far fa-copyright"></i>
+      <p>twentytwenty</p>
+    </div>
+  <% end %>
 </div>
