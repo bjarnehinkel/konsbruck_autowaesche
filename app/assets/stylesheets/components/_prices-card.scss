@@ -1,0 +1,31 @@
+.price-card{
+  width: 100%;
+  margin: 0 20px;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.2);
+  background-color: white;
+  border-radius: 8px;
+  display: inline-block;
+  h1{
+    font-family: $headers-font;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 27px;
+  }
+  ul{
+    margin-bottom: 15px;
+    li{
+      display: flex;
+      .aufgabe{
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+.border-radius{
+  border-radius: 0 0 8px 8px;
+}
+
+.price-row{
+  margin-bottom: 100px;
+}
